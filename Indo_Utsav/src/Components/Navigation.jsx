@@ -18,7 +18,8 @@ function Navigation() {
         <li><a href="#help">Help</a></li>
         <li><a href="#contact-us">Contact Us</a></li>
       </ul>
-      <button className="theme-toggle border border-red-200">
+      <button className="theme-toggle border border-red-200"
+      >
         ThemeButton
       </button>
     </nav>

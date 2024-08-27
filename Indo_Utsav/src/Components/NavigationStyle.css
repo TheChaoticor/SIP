@@ -3,8 +3,10 @@
   color: #fff;
   border: none;
   padding: 5px 10px;
+  margin-right: 10px;
   font-size: 12px;
   cursor: pointer;
+  transition: background-color 0.5s ease; /* add transition effect */
 }
 
 .theme-toggle:hover {
@@ -44,11 +46,28 @@
 
 .nav-links li {
   margin-right: 20px;
+  position: relative;
+  transition: all 0.5s ease; 
+}
+
+.nav-links li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px; 
+  background-color: #e0d03d; 
+  transition: width 0.5s ease; 
+}
+
+.nav-links li:hover::after {
+  width: 100%;
 }
 
 .nav-links a {
   color: #fff;
-  text-decoration: none;
+  transition: color 0.5s ease; 
 }
 
 .nav-links a:hover {

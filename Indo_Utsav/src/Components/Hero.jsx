@@ -1,10 +1,11 @@
 import React from 'react'
+import './HeroStyle.css'
 
 function Hero() {
   return (
-    <div>
-      
-    </div>
+    <section className='Hero'>
+      Arpit Boy BBsr
+    </section>
   )
 }
 

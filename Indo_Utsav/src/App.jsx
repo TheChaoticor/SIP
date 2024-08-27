@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
+import Navigation from './Components/Navigation'
 import './App.css'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1 className='bg-red-700 p-4 text-center text-xl font-serif text-slate-200'> Count : {count} </h1>
+      <Navigation/>
     </>
   )
 }
